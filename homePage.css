@@ -1,0 +1,82 @@
+/* HomePage CSS */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    background: linear-gradient(to bottom right, #D15BA5, #86A8E7, #5FFBF1);
+    /* background: rgb(36, 39, 46); */
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: center;
+    background-size: 200%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    height: 103vh;
+    width: 100vw;
+    /* cursor: url('https://reygif.com/media/emoticon-hello-kitty-18039.gif'), auto; */
+}
+
+.headers {
+    color: linear-gradient (to bottom right, red, blue);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.label {
+    background: linear-gradient(to bottom right, rgb(248, 216, 156), rgb(255, 158, 158));
+    padding: 8px 12px;
+    padding-right: 24px;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0 100%);
+    font-size: large;
+    width: 25em;
+}
+
+.linkButton {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: rgb(193, 179, 255);
+    margin: 1px auto;
+    text-decoration: none;
+    text-align: center;
+    width: 20em;
+    font-weight: 500;
+    font-size: large;
+}
+
+.linkButton:hover {
+    color: red;
+    background: rgb(173, 159, 235);
+}
+
+img {
+    border: 2px solid blue;
+    border-radius: 30px;
+    margin: 4px;
+    -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+    position: absolute;
+    top: auto;
+    left: 83%;
+}
+
+
+/* Test */
+
+footer {
+    background: rgb(45, 48, 55);
+    font-size: large;
+    font-weight: 700;
+    margin-top: 40px;
+    height: 20vh;
+    width: auto;
+    text-align: center;
+}
+
+
